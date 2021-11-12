@@ -1,0 +1,18 @@
+UK SSP Indicator,UK_SSP_FILE,OUTFILE_VARNAME,Processing Type,UK SSP Metric,SSP Indicator Unit,Original Spatial Resolution,Temporal Resolution,Sectoral Categories,Baseline Data Source,Projection Trend Source
+Demography,Demography,demography,pop_wgt,Age Structure,Thousands per age class,LADS,Yearly,19 age classes,ONS 2019,IIASA
+Population,population,population,pop,Population,Headcount,1km,Decadal,N/A,ONS 2019; LCM 2015; Worldpop 2020,IIASA; UK SSP urbanisation
+Health,Health,health,interp,Life expectancy at birth,Years,LADS,Decadal,N/A,ONS 2018,Stakeholder process
+Healthcare,Healthcare,healthcare,per_capita,GPs per capita,GP headcount [excluding registrars and locums] / 100 000 capita,NUTS2,Decadal,N/A,NHS Digital 2020; Welsh Government 2020; Public Health Scotland 2019; HSC Business Services Organisation 2020,Stakeholder process
+Inequality,Inequality,inequality,interp,S80/S20 income quintile ratio,Ratio [unitless],NUTS3,Decadal,N/A,OECD 2011,Stakeholder process
+GVA,GVA,gva,pop_wgt,GVA,£ 2018 million,LADS,Yearly,17 sectors,ONS 2018,UK SSP GDP
+Employment,Employment,employment,pop_wgt,Number of jobs,Count,LADS,Yearly,17 sectors,BRES 2019,UK SSP GVA
+Incomes,Household Income,household_income,pop_wgt,Household income,£ 2018 million,LADS,Yearly,N/A,ONS 2018 ,UK SSP GVA
+Values and Attitudes re Environment (Environmental Lifestyles),Environmental Lifestyles,environmental_lifestyles,interp,Share of population reporting pro-environmental lifestyles,%,NUTS3,Decadal,N/A,UK HLS 2013,Stakeholder process
+Road Infrastructure,Road Infrastructure,road_infrastructure,area_quant,Speed-weighted length of roads per area,Speed-weighted km/km2 ,LADS,Decadal,N/A,GRIP 2015,Stakeholder process
+Rail Infrastructure,Rail Infrastructure,rail_infrastructure,area_quant,Railway lines per area,m/km2,LADS,Decadal,N/A,WFP 2014,Stakeholder process
+R&D Expenses,R_D_Expenses,r_d_expenses,per_capita,R&D expenses of all sectors,£ 2018  / capita,NUTS2,Decadal,N/A,Eurostat 2018,Stakeholder process
+Education,Education,education,interp,Share of population aged 25 - 64 with tertiary education,%,LADS,Decadal,N/A,Eurostat 2019,Stakeholder process
+Social Cohesion,Social Cohesion,social_cohesion,interp,Share of population reporting neighbours willing to help,%,NUTS3,Decadal,N/A,UK HLS 2015,Stakeholder process
+Produced Capital,Produced Capital,produced_capital,area_quant,Gross fixed capital formation per area,£ 2018 million / km2,LADS,Decadal,N/A,Eurostat 2017,Stakeholder process
+Savings (capital availability),Any Savings,any_savings,interp,"Share of population reporting ability to ""save any amount""",%,NUTS3,Decadal,N/A,UK HLS 2017,Stakeholder process
+Urbanisation,urbanisation,urbanisation,urb,Artificial Surface,m2,1km,Decadal,N/A,LCM 2015,Impressions dIAP
